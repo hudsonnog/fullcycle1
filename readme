@@ -1,1 +1,17 @@
-## Projeto Docker 1
+## Construindo e Publicando a Imagem Docker
+Com o Dockerfile criado, siga os passos abaixo:
+
+Build da Imagem:
+
+No terminal, navegue até o diretório do seu projeto e execute:
+`docker build -t <seu-user>/fullcycle .`
+
+Verifique o Tamanho da Imagem:
+`docker images | grep fullcycle `
+
+Publicando no Docker Hub:
+`Primeiro, faça login no Docker Hub:`
+
+Em seguida, publique sua imagem:
+`docker push <seu-user>/fullcycle`
+
